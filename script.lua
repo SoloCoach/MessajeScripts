@@ -4,7 +4,7 @@ local icon = Instance.new("ImageButton")
 icon.Parent = screen
 icon.Size = UDim2.new(0, 50, 0, 50)
 icon.Position = UDim2.new(0, 10, 0, 10)
-icon.Image = "rbxassetid://10003972050"  -- Replace with your icon ID
+icon.Image = "rbxassetid://10003972050"
 icon.BackgroundTransparency = 1
 
 local menu = Instance.new("Frame")
@@ -215,6 +215,6 @@ deleteButton.MouseButton1Click:Connect(function()
         confirmButton.Position = UDim2.new(1, -70, 1, -150)
         confirmButton.Text = "Evet"
         confirmButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-        -- confirmButton logic goes here...
+         
     end
 end)
